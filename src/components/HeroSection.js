@@ -6,7 +6,7 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      <image href='/images/cover-pic-cloud-app-development-4.svg' />
       <h1>Delivering Intelligence</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
@@ -27,6 +27,7 @@ function HeroSection() {
         </Button>
       </div>
     </div>
+    
   );
 }
 

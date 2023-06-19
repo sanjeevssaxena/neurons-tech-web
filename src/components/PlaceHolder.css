@@ -1,0 +1,19 @@
+.placeholder_container {
+    margin-top: 20px;
+    column-gap: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+ul {
+    align-content: normal;
+    text-align: left;
+    listStyleType: lower-alpha;
+    list-style: disc;
+}
